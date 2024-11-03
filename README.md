@@ -1,4 +1,4 @@
--👋 Hi, I’m Daniel. or dizzy, depending on who you are.
+- 👋 Hi, I’m Daniel. or dizzy, depending on who you are.
 - 👀 I’m interested in bodybuilding, powerlifting, programming, and gaming. I want to make my own games, websites, media servers, and beyond. 
 - 🌱 I’m currently learning web dev :p
 - 💞️ I’m looking to collaborate on frontend projects, full stack projects, cloud projects, and ML projects (make my own website)
