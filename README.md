@@ -1,8 +1,8 @@
-- 👋 Hi, I’m Daniel. or dizzy, depending on who you are.
-- 👀 I’m interested in bodybuilding, powerlifting, programming, and gaming. I want to make my own games, websites, media servers, and beyond. 
-- 🌱 I’m currently learning web dev :p
-- 💞️ I’m looking to collaborate on frontend projects, full stack projects, cloud projects, and ML projects (make my own website)
-- 📫 How to reach me -> LinkedIn Daniel Islam or dizlam anywhere.
+- 👋 Hi, I’m Daniel, or Dizzy, if you know me real well.
+- 👀 I’m interested in bodybuilding, powerlifting, programming, and gaming. I want to make my own ML models, AI agents, and apps. 
+- 🌱 I’m currently learning Data Science, Machine Learning, and Artificial Intelligence :p
+- 💞️ I’m looking to collaborate on frontend projects, full stack projects, cloud projects, and ML projects. 
+- 📫 How to reach me -> LinkedIn Daniel Islam or dizlam anywhere else.
 - 😄 Pronouns - He/His
 - ⚡ Fun fact -  Octopuses have three hearts, and two of them stop beating when they swim 🐙
 
