@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Daniel, or Dizzy, if you know me real well.
+- 👋 Hi, I’m Daniel (or dizzy - iykyk)
 - 👀 I’m interested in bodybuilding, powerlifting, programming, and gaming. I want to make my own ML models, AI agents, and apps. 
 - 🌱 I’m currently learning Data Science, Machine Learning, and Artificial Intelligence :p
 - 💞️ I’m looking to collaborate on frontend projects, full stack projects, cloud projects, and ML projects. 
