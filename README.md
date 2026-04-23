@@ -1,8 +1,7 @@
-- 👋 Hi, I’m Daniel (or dizzy)
-- 🌱 I’m currently learning Data Science, Machine Learning, and Artificial Intelligence :p
+- 👋 Hi, I’m Daniel
+- 🌱 I’m currently learning Data Science, Machine Learning, and Artificial Intelligence
 - 💞️ I’m looking to collaborate on frontend projects, full stack projects, cloud projects, and ML projects. 
 - 📫 How to reach me -> LinkedIn Daniel Islam // www.linkedin.com/in/daniel-islam1
-- 😄 Pronouns - He/His
 - ⚡ Fun fact -  there’s a tiny jellyfish — Turritopsis dohrnii — that can literally hit the reset button on its life. When it gets stressed or injured, it shrinks back into its baby form and starts growing all over again. In theory, it never has to die of old age.
 - 👀 I’m interested in bodybuilding, programming, and gaming. I want to make my own ML models, AI agents, games and apps. 
 <!---
