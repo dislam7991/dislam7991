@@ -50,7 +50,7 @@ Software Engineer with experience in full-stack web development and ML/MLOps pip
 
 | Project | Description | Tech Stack |
 |---|---|---|
-| [mlops-auto-insurance-demo-2](https://github.com/dislam7991/mlops-auto-insurance-demo-2) | End-to-end MLOps pipeline for insurance fraud detection | Python, scikit-learn, MLOps |
+| [MLOps-demo-auto-insurance](https://github.com/dislam7991/MLOps-demo-auto-insurance) | End-to-end MLOps pipeline for insurance fraud detection | Python, scikit-learn, MLOps |
 | [ModelingChurn](https://github.com/dislam7991/ModelingChurn) | Customer churn prediction pipeline for energy company (BCG-inspired) | Python, XGBoost, LightGBM, SMOTE |
 | [materials-master-db](https://github.com/dislam7991/materials-master-db) | Streamlit app + SQLite database for materials master data management in manufacturing | Python, Streamlit, SQLite, ETL |
 | [dtf-website](https://github.com/dislam7991/dtf-website) | 5-page marketing site for real client (CDMO manufacturer) wired to sales team | HTML, CSS, JavaScript |
