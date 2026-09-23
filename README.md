@@ -1,8 +1,8 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Daniel%20Islam&fontSize=60&fontAlignY=35&desc=Software%20Engineer%20%7C%20ML%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descAlign=50)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Daniel%20Islam&fontSize=60&fontAlignY=35&desc=Software%20Engineer%20%7C%20ML%20Engineer%20%7C%20Problem%20Solver&fontColor=ffffff)
 
 ## 👋 About Me
 
-Software Engineer with experience in full-stack web development and ML/MLOps pipelines. Currently building production applications with Next.js/TypeScript and end-to-end ML systems. Open to software engineering, ML engineering, and full-stack roles.
+Software Engineer with experience in full-stack web development and ML/MLOps pipelines. Currently building production applications with Next.js/TypeScript and end-to-end ML systems. Open to software engineering and data-driven product opportunities.
 
 ---
 
@@ -54,6 +54,9 @@ Software Engineer with experience in full-stack web development and ML/MLOps pip
 | [mlops-auto-insurance-demo-2](https://github.com/dislam7991/mlops-auto-insurance-demo-2) | End-to-end MLOps pipeline for insurance fraud detection | Python, scikit-learn, MLOps |
 | [ModelingChurn](https://github.com/dislam7991/ModelingChurn) | Customer churn prediction pipeline for energy company (BCG-inspired) | Python, XGBoost, LightGBM, SMOTE |
 | [dtf-website](https://github.com/dislam7991/dtf-website) | 5-page marketing site for real client (CDMO manufacturer) wired to sales team | HTML, CSS, JavaScript |
+| [fitness-pro](https://github.com/dislam7991/fitness-pro) | Official fitness brand site with training programs, nutrition plans, and content marketing | HTML, CSS, JavaScript |
+| [materials-master-db](https://github.com/dislam7991/materials-master-db) | Streamlit app + SQLite database for materials master data management in manufacturing | Python, Streamlit, SQLite, ETL |
+| [html-portfolio](https://github.com/dislam7991/html-portfolio) | Live portfolio showcasing projects, case studies, and design-focused work | HTML, CSS, JavaScript |
 
 ---
 
