@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Daniel%20Islam&fontSize=60&fontAlignY=35&desc=Software%20Engineer%20%7C%20ML%20Engineer%20%7C%20MLOps%20Engineer&descAlignY=55&descSize=20)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Daniel%20Islam&fontSize=60&fontAlignY=35&desc=Software%20Engineer%20%7C%20Data%20Scientist%20%7C%20MLOps%20Engineer&descAlignY=55&descSize=20)
 
 ## 👋 About Me
 
