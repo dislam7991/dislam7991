@@ -2,7 +2,7 @@
 
 ## 👋 About Me
 
-Software Engineer with experience in full-stack web development and ML/MLOps pipelines. Currently building production applications with Next.js/TypeScript and end-to-end ML systems. Open to software engineering and ML engineering opportunities.
+Software Engineer with experience in full-stack web development and ML/MLOps pipelines. Currently building production applications for end-to-end ML systems. Open to software engineering, data science and ML engineering opportunities. Let's work on something **cool!**
 
 ---
 
