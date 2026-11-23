@@ -66,8 +66,8 @@ Software Engineer with experience in full-stack web development and ML/MLOps pip
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dislam7991&show_icons=true&theme=tokyonight&hide_border=true" alt="Daniel's GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dislam7991&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="./profile/stats.svg" alt="Daniel's GitHub Stats" height="165" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" height="165" />
 </p>
 
 ---
