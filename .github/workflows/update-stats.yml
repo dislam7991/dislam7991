@@ -1,0 +1,75 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-profile-cards
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      # Add STATS_TOKEN under Settings > Secrets and variables > Actions.
+      # Use a PAT with access to the repositories to count (the provider
+      # documents repo and read:user scopes for a classic PAT).
+      # Private-derived totals in the generated SVGs will be public.
+      - name: Require stats credentials
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          if [ -z "$STATS_TOKEN" ]; then
+            echo "::error::Add the STATS_TOKEN repository secret before generating cards."
+            exit 1
+          fi
+
+      - name: Check out profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=dislam7991&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true&include_all_commits=true
+          path: profile/stats.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          core_version: "2.3.1"
+          fail_on_error: "true"
+
+      - name: Generate languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=dislam7991&layout=compact&theme=tokyonight&hide_border=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          core_version: "2.3.1"
+          fail_on_error: "true"
+
+      # Both generators must succeed before replacing the published cards.
+      # The checkout's GITHUB_TOKEN writes images; STATS_TOKEN only reads stats.
+      - name: Commit updated cards
+        run: |
+          git add -- profile/stats.svg profile/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "Cards are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update profile cards"
+          git push origin HEAD:main
+
+      # After the first successful manual run, update README.md image sources
+      # to ./profile/stats.svg and ./profile/top-langs.svg.
